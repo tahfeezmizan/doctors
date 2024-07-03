@@ -14,6 +14,7 @@ const Services = () => {
                     </button>
 
                     <h2 className="text-4xl font-semibold mb-4">Empowering Health, <br /> Enriching Lives</h2>
+                    
                     <p className="text-base font-normal pr-20 mb-11">We are committed to providing high-quality, compassionate care to every patient we serve. Whatever your healthcare needs may be, you can trust us to be your partner in health and wellness.</p>
 
                     <button className="text-base font-semibold border bg-yellow-400 border-yellow-400 px-7 py-3 rounded-xl flex items-center gap-2 hover:bg-yellow-500 hover:border-yellow-500">

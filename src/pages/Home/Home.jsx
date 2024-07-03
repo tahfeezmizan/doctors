@@ -3,6 +3,7 @@ import Banner from '../Banner/Banner';
 import ComprehensiveCare from './ComprehensiveCare';
 import GetSoultions from './GetSoultions';
 import Services from './Services';
+import Testimonial from './Testimonial';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             </div>
             <GetSoultions />
             <Services />
+            <Testimonial />
         </div>
     );
 };
