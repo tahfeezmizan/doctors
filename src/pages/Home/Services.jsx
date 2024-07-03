@@ -1,11 +1,13 @@
 import React from 'react';
 import { IoArrowUpSharp } from 'react-icons/io5';
 import technozly from '../../assets/Rectangle 27-2.png'
+import onlinedoctor from '../../assets/Rectangle 27-1.png'
+import consultancy from '../../assets/Rectangle 27.png'
 
 const Services = () => {
     return (
-        <div className='container py-20 px-0 font-Inter'>
-            <div className="grid grid-cols-6 gap-7">
+        <div className='container my-20 p-10 rounded-3xl bg-yellow-50 font-Inter'>
+            <div className="grid grid-cols-6 gap-7 mb-16">
                 <div className="col-span-3">
                     <button className="text-base font-semibold border border-PrimaryColor px-7 py-2 rounded-xl flex items-center gap-2 hover:bg-yellow-400 hover:border-yellow-400 mb-5">
                         Services
@@ -29,7 +31,31 @@ const Services = () => {
                     </div>
                     <img src={technozly} className="w-full rounded-3xl" alt="" />
                 </div>
+            </div>
 
+            <div className="grid grid-cols-6 gap-7">
+                <div className="col-span-3 relative">
+                    <div className="w-96 bg-[#343268b7] px-6 py-9 text-white rounded-3xl absolute bottom-5 left-5">
+                        <h3 className="text-2xl font-medium mb-3">Online Doctor Meet</h3>
+                        <div className="flex items-end">
+                            <p className="text-sm font-normal pr-7 text-gray-300">Our surgeons are trained in the latest robotic surgical techniques, which allow for greater precision</p>
+                            <p className="w-12 h-12 text-3xl rotate-45 ml-auto bg-yellow-400 p-2 rounded-full"><IoArrowUpSharp /></p>
+                        </div>
+
+                    </div>
+                    <img src={onlinedoctor} className="w-full rounded-3xl" alt="" />
+                </div>
+                <div className="col-span-3 relative">
+                    <div className="w-96 bg-[#343268b7] px-6 py-9 text-white rounded-3xl absolute bottom-5 left-5">
+                        <h3 className="text-2xl font-medium mb-3">Consultancy your health</h3>
+                        <div className="flex items-end">
+                            <p className="text-sm font-normal pr-7 text-gray-300">Our surgeons are trained in the latest robotic surgical techniques, which allow for greater precision</p>
+                            <p className="w-12 h-12 text-3xl rotate-45 ml-auto bg-yellow-400 p-2 rounded-full"><IoArrowUpSharp /></p>
+                        </div>
+
+                    </div>
+                    <img src={consultancy} className="w-full rounded-3xl" alt="" />
+                </div>
             </div>
         </div>
     );
