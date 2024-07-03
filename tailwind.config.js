@@ -5,7 +5,21 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      container: {
+        center: true,
+        padding: '1rem',
+        screens: {
+          'lg': '1180px',
+        },
+      },
+      fontFamily: {
+        Inter: "'Inter', sans-serif",
+      },
+      colors: {
+        PrimaryColor: "#343268",
+      },
+    },
   },
   plugins: [],
 }
