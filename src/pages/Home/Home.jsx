@@ -4,6 +4,7 @@ import ComprehensiveCare from './ComprehensiveCare';
 import GetSoultions from './GetSoultions';
 import Services from './Services';
 import Testimonial from './Testimonial';
+import FaqSection from './FaqSection';
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <GetSoultions />
             <Services />
             <Testimonial />
+            <FaqSection />
         </div>
     );
 };
