@@ -2,7 +2,7 @@ import banner from '../../assets/Rectangle 5.png'
 
 const Banner = () => {
     return (
-        <div className="container w-full h-[500px] rounded-3xl relative overflow-hidden">
+        <div className="container w-full h-[500px] rounded-3xl relative overflow-hidden -z-10">
             <div className="absolute inset-0 " style={{
                 backgroundImage: `linear-gradient(to top, #02004378 47%, #00C19D00), url(${banner})`,
                 backgroundPosition: 'center',

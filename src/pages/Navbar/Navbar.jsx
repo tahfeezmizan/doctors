@@ -22,7 +22,7 @@ const Navbar = () => {
                 </NavLink>
 
                 <div className="flex-1 flex justify-center">
-                    <div className={`md:flex gap-8 md:static absolute duration-300 ease-in-out ${open ? 'top-16' : 'top-[-200px]'} right-0 md:right-auto md:bg-transparent bg-gray-200 w-full md:w-auto`}>
+                    <div className={`md:flex gap-8 md:static absolute duration-300 ease-in-out ${open ? 'top-16' : 'top-[-200px]'} right-0 md:right-auto md:bg-transparent bg-white py-10 w-full md:w-auto`}>
                         
                         <div className="flex flex-col md:flex-row gap-3 md:gap-6 font-Inter items-center justify-center text-base font-normal">
                             {links}
