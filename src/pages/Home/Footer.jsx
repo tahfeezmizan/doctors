@@ -14,11 +14,13 @@ const Footer = () => {
                     <p className="text-base font-normal">(Available : 10:00am to 07:00pm) </p>
                 </div>
                 <div className="col-span-1">
-                    <Link>Home</Link>
-                    <Link>About Us</Link>
-                    <Link>Sucess Page</Link>
-                    <Link>Sucess Page</Link>
-                    <Link>Terms and condition</Link>
+                    <div className="">
+                        {/* <Link>Home</Link>
+                        <Link>About Us</Link>
+                        <Link>Sucess Page</Link>
+                        <Link>Sucess Page</Link>
+                        <Link>Terms and condition</Link> */}
+                    </div>
                 </div>
                 <div className="col-span-1">
                     <Link>Home</Link>

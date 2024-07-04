@@ -7,6 +7,7 @@ import Testimonial from './Testimonial';
 import FaqSection from './FaqSection';
 import Appointment from './Appointment';
 import Footer from './Footer';
+import Footes from './Footes';
 
 const Home = () => {
     return (
@@ -20,7 +21,8 @@ const Home = () => {
             <Testimonial />
             <FaqSection />
             <Appointment />
-            <Footer />
+            {/* <Footer /> */}
+            <Footes />
         </div>
     );
 };
