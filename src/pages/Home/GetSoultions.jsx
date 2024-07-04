@@ -4,8 +4,8 @@ import { IoArrowUpSharp } from 'react-icons/io5';
 
 const GetSoultions = () => {
     return (
-        <div className='container py-20 px-0 font-Inter'>
-            <div className="grid grid-cols-6 gap-7">
+        <div className='container py-20 md:px-0 font-Inter'>
+            <div className="grid grid-cols-1 md:grid-cols-6 gap-7">
                 <div className="col-span-3">
                     <button className="text-base font-semibold border border-PrimaryColor px-7 py-2 rounded-xl flex items-center gap-2 hover:bg-yellow-400 hover:border-yellow-400 mb-5">
                         Who we are
@@ -20,7 +20,7 @@ const GetSoultions = () => {
                     </button>
                 </div>
                 <div className="col-span-3 relative">
-                    <div className="w-96 bg-[#343268] px-6 py-9 text-white rounded-3xl absolute -bottom-10 left-0">
+                    <div className="w-96 bg-[#343268] px-6 py-9 text-white rounded-3xl absolute -bottom-14  md:-bottom-10 md:left-0">
                         <h3 className="text-2xl font-medium mb-3">Our mission is simple</h3>
                         <p className="text-base font-normal text-gray-300">To provide high-quality healthcare services that are accessible, personalized, and patient-centered.</p>
                     </div>

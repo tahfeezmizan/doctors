@@ -6,8 +6,8 @@ import consultancy from '../../assets/Rectangle 27.png'
 
 const Services = () => {
     return (
-        <div className='container my-20 p-10 rounded-3xl bg-yellow-50 font-Inter'>
-            <div className="grid grid-cols-6 gap-7 mb-16">
+        <div className='container my-20 p-5 md:p-10 rounded-3xl bg-yellow-50 font-Inter'>
+            <div className="grid grid-cols-1 md:grid-cols-6 gap-7 mb-16">
                 <div className="col-span-3">
                     <button className="text-base font-semibold border border-PrimaryColor px-7 py-2 rounded-xl flex items-center gap-2 hover:bg-yellow-400 hover:border-yellow-400 mb-5">
                         Services
@@ -34,7 +34,7 @@ const Services = () => {
                 </div>
             </div>
 
-            <div className="grid grid-cols-6 gap-7">
+            <div className="grid grid-cols-1 md:grid-cols-6 gap-7">
                 <div className="col-span-3 relative">
                     <div className="w-96 bg-[#343268b7] px-6 py-9 text-white rounded-3xl absolute bottom-5 left-5">
                         <h3 className="text-2xl font-medium mb-3">Online Doctor Meet</h3>

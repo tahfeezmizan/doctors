@@ -7,19 +7,19 @@ import meeting from '../../assets/meeting.png'
 
 const ComprehensiveCare = () => {
     return (
-        <div className='container px-0 py-10'>
-            <div className="grid grid-cols-5 gap-5">
+        <div className='container py-10'>
+            <div className="grid grid-cols-1 md:grid-cols-5 gap-5">
                 <div className="col-span-1">
-                    <div className=" bg-white p-6 rounded-3xl ">
+                    <div className=" bg-white p-6 rounded-3xl">
                         <h3 className="text-4xl font-Inter font-semibold mb-2">90%</h3>
                         <p className="text-base font-Inter font-normal pb-6">Patient satisfaction rate, reflecting our commitment.</p>
-                        <img src={chart} alt="" />
+                        <img src={chart} className="ml-auto md:ml-0" alt="" />
                     </div>
                 </div>
-                <div className="col-span-3">
-                    <h2 className="text-5xl font-Inter font-semibold text-center px-20 mb-5">Comprehensive Care for Every Patient</h2>
+                <div className="col-span-3 title">
+                    <h2 className="text-4xl md:text-5xl font-Inter font-semibold text-center px-20 mb-5">Comprehensive Care for Every Patient</h2>
 
-                    <div className="grid grid-cols-6 gap-5 items-end">
+                    <div className="grid grid-cols-1 md:grid-cols-6 gap-5 items-end">
                         <div className="col-span-2">
                             <div className=" bg-yellow-50 p-6 rounded-3xl flex flex-col">
                                 <h3 className="text-4xl font-Inter font-semibold mb-2">500+</h3>
@@ -44,10 +44,10 @@ const ComprehensiveCare = () => {
                     </div>
                 </div>
                 <div className="col-span-1">
-                    <div className=" bg-white p-6 rounded-3xl ">
+                    <div className="bg-white p-6 rounded-3xl ">
                         <h3 className="text-4xl font-Inter font-semibold mb-2">$5000</h3>
                         <p className="text-base font-Inter font-normal pb-11">Money spend for poor patient</p>
-                        <img src={meeting} alt="" />
+                        <img src={meeting} className="ml-auto md:ml-0" alt="" />
                     </div>
                 </div>
             </div>

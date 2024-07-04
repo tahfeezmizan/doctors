@@ -8,9 +8,10 @@ export default {
     extend: {
       container: {
         center: true,
-        padding: '1rem',
+        padding: '1rem', 
         screens: {
-          'lg': '1180px',
+          'sm': '100%', 
+          'lg': '1180px', 
         },
       },
       fontFamily: {
